@@ -1,58 +1,11 @@
-# Compiled Java class files
+# Build outputs
+/bin/
 *.class
 
-# Log files and crash dumps
-*.log
-hs_err_pid*
-replay_pid*
+# Databases & local state
+landrop.db
 
-# Package files
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# Virtual machine / build output directories
-bin/
-build/
-out/
-target/
-
-# Eclipse IDE
-.metadata
-bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
+# IDE workspace caches
 .settings/
-.loadpath
-.recommenders
-.project
-.classpath
-
-# VS Code
 .vscode/
-*.code-workspace
-
-# IntelliJ IDEA
-.idea/
-*.iws
 *.iml
-*.ipr
-out/
-
-# OS-specific files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-Desktop.ini
